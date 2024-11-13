@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>ecommers/product.com</title>
+      <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="Stylesheet" href="fonts/stylesheet.css" />
+      <link rel="stylesheet" href="js/animate.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="js/wow.js"></script>
+      <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="js/all.js"></script>
+   </head>
+<body>
+        <div class="maincontainer">
+            <div class="banner_eco">
+            <h3 class="fade wow fadeIn">order now</h3>
+            </div>
+            <div class="wrap">
+
+            <div class="my_list_eco2">
+            
+                <div class="listeco">
+                    
+                    <a class="veg" id="act" href="#">veg</a></br>
+                      <a class="non" href="#">non-veg</a></br>
+                      <a class="break" href="#">breakfast</a></br>
+                </div>
+           
+            </div>
+                
+                <div class="my_list_eco">
+                   
+                    <div class="eco_list">
+                    <h3>vegetable menu</h3>
+                        <ul>
+                            <li><div class="m_pro"><img src="img/order.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/order.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/order.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/order.jpg" /></div></li>
+                        </ul>
+                    </div>
+                    <div class="eco_list2">
+                     <h3>non-veg menu</h3>
+                        <ul>
+                            <li><div class="m_pro"><img src="img/small_slide2.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/small_slide2.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/small_slide2.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/small_slide2.jpg" /></div></li>
+                        </ul>
+                    </div>
+                    <div class="eco_list3">
+                     <h3>breakfast menu</h3>
+                        <ul>
+                            <li><div class="m_pro"><img src="img/small_slide3.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/small_slide3.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/small_slide3.jpg" /></div></li>
+                            <li><div class="m_pro"><img src="img/small_slide3.jpg" /></div></li>
+                        </ul>
+                    </div>
+                
+                </div>
+                <div class="cf"></div>
+                
+            </div>
+
+            <div class="banner_ecopos">
+            </div>
+
+            <div class="wrap">
+                <!--   <div class="l_fam wow fadeInDown">
+                    <img src="img/cartoondinner.png" />
+                    
+                    </div>-->
+            </div>
+        </div>
+
+</body>
+</html>
+
+
+<script>
+
+    $(document).ready(function () {
+        $(".listeco a.veg").click(function () {
+            $(".eco_list").toggle();
+            $(".eco_list").fadeIn(2000);
+            $(".eco_list").fadeIn(slow);
+        });
+        $(".listeco a.non").click(function () {
+            $(".eco_list2").toggle();
+            $(".eco_list2").fadeIn(3000);
+            $(".eco_list2").fadeIn(slow);
+        });
+        $(".listeco a.break").click(function () {
+            $(".eco_list3").toggle();
+            $(".eco_list3").fadeIn(3000);
+            $(".eco_list3").fadeIn(slow);
+        });
+    });
+
+</script>
